@@ -15,7 +15,12 @@ setTimeout(() => {
 }, delay);
 
 
-//^^ all the characters will print at once because they are all set
+
+// setTimeout(() => {
+//   console.log(char);
+// }, 1000);
+//
+//^^^In the first example, all the characters will print at once because they are all set
 //to print out at 1 second after the program is run. There is no delay
 //between each character.
 //each loop creates a 1 second timer for each character, and all timers
